@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+</!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TP2 HTML et CSS</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    
+</head>
+<body style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxra55WUMoqZaXA9FU--sccN51maqYCIu4lAm9AV_i&s);" >
+
+    <form action="https://html-reponse.usertest.fr/reponse.php" method="post">
+  <br></br>  <h2>TP2 HTML et CSS</h2>
+    <h3>Questionnaire de mobilité urbaine</h3> 
+   <h4>Le service des transports d’une municipalité envisage de remanier l’offre de transports en commun.<br/>
+     A cette fin,une enquête est menée auprès des usagers à l’aide du formulaire ci-dessous.</h4>
+     <fieldset style="background-color: rgb(118, 118, 118);"><legend style="background-color: hsl(0, 8%, 79%);"><strong >informations personnelles </strong></legend>
+      
+  <P>      <label for="genre"><em>genre</em></label >
+   <input type="radio"name="genre"value="f" >F
+  <input  type="radio"name="genre"value="m">M
+ </P>
+  <p>
+<label for="class d'age"><em>class d'age:</em></label>
+<select name="age" id="age-select" >
+<option value="m20ans ">Moins de 20 ans </option>
+<option value="2039">20à39 ans </option>
+<option value="4059">40 à 59 ans </option>
+<option value="p60">60 ans ou plus </option>
+</select>
+</p>
+<p>
+<label for="socio" ><em>Groupe socioprofessionnel:</em></label>
+<select name="gsp" id="socio">
+    <option value="argri ">Agriculteurs exploitants (agri)</option>
+    <option value="arti">Artisans, commerçants et chefs d’entreprise (arti)</option>
+    <option value="cadr">Cadres et professions intellectuelles supérieures (cadr)</option>
+    <option value="proi">Professions intermédiaires (proi)</option>
+    <option value="empl">Employés (empl)</option>
+    <option value="ouvr">Ouvriers (ouvr)</option>
+    <option value="retr">Retraités (retr)</option>
+    <option value="sansac">Autres personnes sans activité professionnelle (sansac)</option>
+</select></p>
+<p>Code postal:<input type="number"  name="cpostal" value="40000" ></p>
+ </fieldset>
+
+  
+ 
+ 
+ 
+ 
+ <fieldset style="background-color: rgb(100, 99, 99);"><legend  style="background-color: hsl(0, 8%, 79%);"><strong>Information sur les trajets domicile-travail</strong></legend>
+   
+   <p> <label for="vehicule" ><em>vehicule principal:</em></label>
+    <select name="vehicule" >
+        <option value="pieton"> Aucun (piéton) </option>
+        <option value="velo">Bicyclette </option>
+        <option value="deuxroues">Deux roues motorisé </option>
+        <option value="auto">Automobile </option>
+        <option value="tcommun">Transports en commun (train, tram, bus,métro) </option>
+       
+    </select></p>
+
+
+
+
+</p>
+<p><label><em>Distance domicile-travailtravail:</em></label>
+    <select name="distance">
+        <option value="m1">Inférieure à 1 km</option>
+        <option value="15">De 1 à 5 km</option>
+        <option value="515">De 5 à 15 km</option>
+        <option value="p15">15 km ou plus </option>
+</select></p>
+    </fieldset>
+
+
+
+
+
+
+
+
+
+
+  <fieldset style="background-color: rgb(72, 71, 71);"><legend  style="background-color: hsl(0, 8%, 79%);">Axes d'amélioration des transports en commun </legend>
+<p><label ><em>cocher les principaux obstacles a la mobilité en transport en commun(plusieurs réponse possibles)</em></label><br/>
+    
+  <input type="checkbox"><em>Temps de trajet trop longs</em></input>&nbsp;&nbsp;&nbsp;
+    <input type="checkbox"><em>Correspondances inadaptées</em></input>&nbsp;&nbsp;&nbsp;
+    <input type="checkbox"><em>Tarifs trop élevés</em></input><br/>
+   <input type="checkbox"><em>respect des horaires</em></input>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="checkbox"><em>trop forte affluence</em></input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="checkbox"><em>desserte insuffisante</em></input><br/></select>
+    <input type="checkbox"><em>Amplitude horaire trop limitée</em></input>&nbsp;&nbsp;&nbsp;
+   <input type="checkbox"><em>Confort insuffisant</em></input>
+   
+</p>
+
+<label for="remarques ">Remarques ou observations sur le réseau de transports en commun:</label><br/>
+	
+<textarea id="remarques" name="remarques" rows="05" cols="150"></textarea>
+</fieldset>
+<fieldset style="background-color: rgb(49, 48, 48);" ><legend  style="background-color: hsl(0, 8%, 79%);"><strong>Merci de votre participation</strong></legend>
+   <input type="submit" value="soumettre" >
+   <input type="reset" value="Réinitialiser">
+   
+   
+    
+  </fieldset>
+
+
+
+
+
+
+
+    
+
+
+
+
+
+</form>
+</body>
+</html>

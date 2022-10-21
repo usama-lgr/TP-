@@ -1,0 +1,15 @@
+/* feuille de style pour  le TP2
+Réalisation : L.Oussala
+-----------------------------------*/
+h3 { text-transform: uppercase;
+    letter-spacing: 24px;
+    background-color: rgb(94, 92, 92);
+    }
+    fieldset{ background-color: rgb(84, 84, 84);
+        }
+   
+
+    h2 {text-decoration-line: underline ;
+
+    }
+ p{ all$ color: ro;
